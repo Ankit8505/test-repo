@@ -18,3 +18,10 @@ pipeline{
        }
     }   
 }
+pipeline {
+    agent any
+    stages {
+pipeline {
+    agent {label "agentfarm" }
+    stages {
+   
